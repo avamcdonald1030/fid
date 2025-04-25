@@ -1,0 +1,147 @@
+body {
+    background-color: #faf2e4;
+    background-image: url('tblackgoose.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin: 0 10%;
+    font-family: 'Playfair Display', serif;
+    position: relative;
+  }
+  
+  
+  
+
+  h1 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #57b1dc;
+    margin-top: 30px;
+    font-size: 2.5em;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+    background: #ffd54f;
+    border-radius: 10px;
+    margin: 20px 0;
+  }
+
+  nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s ease;
+    position: relative;
+  }
+
+  nav ul li a:hover {
+    background-color: #ffeb83;
+    transform: translateY(-3px);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+
+  h2 {
+    color: #d1633c;
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+
+  .order-button {
+    display: block;
+    width: 220px;
+    margin: 30px auto;
+    padding: 12px;
+    background-color: #d1633c;
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    overflow: hidden;
+    transition: background-color 0.3s;
+  }
+
+  .order-button span {
+    display: inline-block;
+    position: relative;
+    animation: bounce 1.2s infinite alternate;
+  }
+
+  @keyframes bounce {
+    0% { top: 0; }
+    100% { top: -8px; }
+  }
+
+  .order-button:hover {
+    background-color: #a84b2a;
+  }
+
+  .order-gif {
+    display: block;
+    margin: 10px auto;
+    width: 200px;
+  }
+
+  .socials {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .socials a {
+    margin: 0 10px;
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+
+  .socials a:hover {
+    transform: scale(1.2);
+  }
+
+  .socials img {
+    width: 40px;
+    height: 40px;
+  }
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff7f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    animation: fadeIn 1s ease-in;
+    color: #d1633c;
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+li {
+    margin-bottom: 0.5em;
+}
+a.return-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #ffd54f;
+    color: #333;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+a.return-link:hover {
+    background-color: #ffeb83;
+}
